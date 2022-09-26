@@ -8,3 +8,7 @@ cpf varchar(13),
 sexo char,
 data_nasc date
 ) engine InnoDB;
+
+alter table cliente
+add rg varchar(13);
+describe cliente;
